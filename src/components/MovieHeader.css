@@ -1,0 +1,94 @@
+.header {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+
+header .header__wrap {
+  max-width: 1750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .header__wrap nav {
+  color: #ff3358;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .search__bar {
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-diration: row;
+  width: 200px;
+  height: 32px;
+  border-radius: 6px;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+nav .search__bar .search_btn {
+  display: flex;
+  flex-diration: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+}
+
+nav .search__bar input {
+  width: 176px;
+  border: none;
+  background: none;
+  padding: 10px 18px;
+  font-size: 16px;
+}
+
+nav .search__bar input:focus {
+  outline: none;
+}
+
+.search {
+  color: #ff3358;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ff3358;
+  font-weight: 600;
+}
+
+.logout {
+  color: #ff3358;
+  font-weight: 600;
+}
+
+header .header__wrap nav > div {
+  cursor: pointer;
+}
+
+/* 헤더 픽스 */
+.fixed_header {
+  position: fixed;
+  top: 0;
+  background-color: #111;
+  z-index: 99;
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  z-index: 99;
+  transition: all 0.4s;
+}
+
+@media (max-width: 1650px) {
+  header .header__wrap {
+    max-width: 1300px;
+  }
+}

@@ -1,0 +1,73 @@
+img {
+  vertical-align: top;
+}
+
+.genre__item {
+  width: 100%;
+}
+
+.genre__item__wrap:hover .hover_info_wrap {
+  display: block;
+  transition: all 0.6s;
+}
+
+.genre__item__wrap:hover .genre__post__Image {
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+
+.hover_info_wrap {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: none;
+  border-radius: 8px;
+}
+
+.hover_info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 30px;
+}
+
+.banner_img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.banner_img .genre__post__Image {
+  width: 100%;
+}
+
+.hover_text_plot {
+  color: #fff;
+  z-index: 20;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.hover_title_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.hover_text_title {
+  color: #fff;
+  z-index: 20;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hover_text_runtime {
+  color: #fff;
+  z-index: 20;
+  font-weight: 500;
+  font-size: 14px;
+}

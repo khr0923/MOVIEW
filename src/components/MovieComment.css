@@ -1,0 +1,84 @@
+.comment__item__container {
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+.comment__item__container h2 .comment__count {
+  color: #ff3358;
+  margin-left: 5px;
+}
+
+.comment__item__wrap {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0px, 1fr));
+  gap: 10px;
+}
+
+.comment__item__box {
+  width: 100%;
+  background: #212121;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.comment__item__box .comment__user__info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2e2e2e;
+  padding-bottom: 10px;
+}
+
+.comment__item__box .comment__user__info .comment__score {
+  background: #2e2e2e;
+  border-radius: 50px;
+  padding: 3px 6px;
+  font-size: 14px;
+  display: flex;
+}
+
+.comment__item__box .comment__user__info .comment__score .star_icon {
+  margin-right: 3px;
+}
+
+.comment__item__box .user__comment {
+  height: 120px;
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+.comment__item__box .comment__like .like_icon {
+  margin-right: 5px;
+}
+
+.commentForm__input {
+  display: flex;
+  justify-content: center;
+  /* padding: 50px 120px; */
+}
+
+.commentForm__input__message {
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.detail__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.try__comment__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.comment__write {
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.comment__write span {
+  margin-right: 5px;
+}

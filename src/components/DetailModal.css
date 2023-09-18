@@ -1,0 +1,89 @@
+.detail__modal__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 20;
+}
+
+.detail__modal {
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333333;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 1.4;
+}
+
+.modal__button {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.signup__button {
+  background: #ff3358;
+  border: none;
+  font-weight: 600;
+}
+
+.login__button {
+  background: transparent;
+  border: 1px solid #ff3358;
+}
+
+.detail__button {
+  height: 36px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close_button {
+  cursor: pointer;
+}
+
+.modal__text {
+  gap: 12px;
+}
+
+.review {
+  color: #ff3358;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.star {
+  display: flex;
+  justify-content: space-evenly;
+  color: gray;
+  cursor: pointer;
+}
+
+.yellowStar {
+  color: #ff3358;
+}
+
+textarea {
+  width: 250px;
+  height: 200px;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+textarea:focus {
+  outline: none;
+}
